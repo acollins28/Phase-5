@@ -1,0 +1,43 @@
+,scores,features
+0,0.348951877,last contact duration in seconds
+1,0.076645884,account balance
+2,0.074383708,age
+3,0.065120582,last contact day
+4,0.042821407,outcome of previous marketing campaign
+5,0.036040264,days since last contact
+6,0.033507666,number of contacts
+7,0.028833473,housing loan
+8,0.027728474,contact type_unknown
+9,0.025020662,number of contacts before current campaign
+10,0.020369099,education level
+11,0.015590463,contact type_cellular
+12,0.013801696,last contact month_may
+13,0.012297385,last contact month_apr
+14,0.012146314,last contact month_mar
+15,0.011428774,last contact month_oct
+16,0.010281846,last contact month_jun
+17,0.009976972,personal loan
+18,0.009764434,last contact month_aug
+19,0.009389668,last contact month_jul
+20,0.008735966,marital status_married
+21,0.008512092,last contact month_nov
+22,0.008328543,job_blue-collar
+23,0.00813512,job_technician
+24,0.008005433,job_management
+25,0.007716107,marital status_single
+26,0.007672634,last contact month_feb
+27,0.006825954,job_admin.
+28,0.006399458,last contact month_sep
+29,0.005349112,job_services
+30,0.005026447,last contact month_jan
+31,0.004992541,marital status_divorced
+32,0.00478788,contact type_telephone
+33,0.004218949,job_retired
+34,0.003812686,job_student
+35,0.003424011,job_self-employed
+36,0.003416397,job_unemployed
+37,0.003074334,job_entrepreneur
+38,0.002710175,job_housemaid
+39,0.0022911,last contact month_dec
+40,0.001480572,credit in default
+41,0.000983841,job_unknown
