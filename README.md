@@ -10,22 +10,23 @@ Our goal is to take the data from their sales campaign and predict whether or no
 ## Data
 Our data included information on over 45,000 current customers who had accounts with Truist. Data included demographic information such as age, marital status and education level, account information including their current balance and any loans to their name, and finally marketing specific information about frequency of calls, length of conversations, and most importantly whether or not they subscribed to term deposits.
 
+To prepare for the modeling process: some data had to be converted from objects to floats, often because the columns were binary in nature. Others had to be one hot encoded since they were more categorical.
+A MinMax scalar was applied to the one hot encoded data to make every column be on the same unit scale while preserving the binary nature of other columns.
+
 ## Modeling
 Three classification models were used: decision tree, random forest, and ADABoost. The idea is that a single decision tree can be tuned, and then a random forest can be an aggregate of trees, and then ADABoost can create trees that learn form the mistakes of previous ones. The goal was to predict whether or not a customer signed up for term deposits.
 
 Our random forest model had the best accuracy at 90.2%. 
 
 ![enter image description here](https://github.com/acollins28/Phase-5/blob/main/Presentation%20Materials/outcome%20prediction%20confusion%20matrix.PNG?raw=true)
+![classification report](https://github.com/acollins28/Phase-5/blob/main/Presentation%20Materials/forest_classification_report.png?raw=true)
 
-To prepare for the modeling process: some data had to be converted from objects to floats, often because the columns were binary in nature. Others had to be one hot encoded since they were more categorical.
-A MinMax scalar was applied to the one hot encoded data to make every column be on the same unit scale while preserving the binary nature of other columns.
 
 ## Results
 Our random forest determined the five most important features when predicting subscription outcome:
 
 ![enter image description here](https://github.com/acollins28/Phase-5/blob/main/Presentation%20Materials/what%20predicts%20subscription.PNG?raw=true)
 
-![classification report](https://github.com/acollins28/Phase-5/blob/main/Presentation%20Materials/forest_classification_report.png?raw=true)
 
 From these top 5, four primary action items were determined to help improve the marketing campaign's success:
 1. Write scripts and create conversation that allows phone calls to last at least 7 minutes.
