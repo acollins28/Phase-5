@@ -25,6 +25,8 @@ Our random forest determined the five most important features when predicting su
 
 ![enter image description here](https://github.com/acollins28/Phase-5/blob/main/Presentation%20Materials/what%20predicts%20subscription.PNG?raw=true)
 
+![classification report](https://github.com/acollins28/Phase-5/blob/main/Presentation%20Materials/forest_classification_report.png?raw=true)
+
 From these top 5, four primary action items were determined to help improve the marketing campaign's success:
 1. Write scripts and create conversation that allows phone calls to last at least 7 minutes.
 2. Target customers with at least $1800 in their account
